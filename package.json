@@ -1,0 +1,29 @@
+{
+  "name": "access-by-path",
+  "version": "0.1.0",
+  "description": "Get and set values in object by path",
+  "main": "src/index.js",
+  "authors": [
+    {
+      "name": "PaulZi",
+      "email": "pavel.zimakoff@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulzi/access-by-path"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^4.19.1",
+    "esm": "^3.2.4",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "eslint src/index.js && mocha -r esm"
+  },
+  "dependencies": {
+    "escaping": "^0.1.1"
+  }
+}
