@@ -1,6 +1,6 @@
 {
   "name": "access-by-path",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Get and set values in object by path",
   "main": "src/index.js",
   "authors": [
@@ -16,14 +16,14 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "eslint": "^4.19.1",
-    "esm": "^3.2.4",
-    "mocha": "^5.2.0"
+    "eslint": "^5.16.0",
+    "esm": "^3.2.25",
+    "mocha": "^6.1.4"
   },
   "scripts": {
     "test": "eslint src/index.js && mocha -r esm"
   },
   "dependencies": {
-    "escaping": "^0.1.1"
+    "escaping": "^0.1.2"
   }
 }
